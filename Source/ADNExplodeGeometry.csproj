@@ -28,7 +28,7 @@
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <OutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\ADN-ExplodeGeometry.bundle\Contents\ManagedAssemblies\2026\</OutputPath>
 
-    <!-- Assembly Information -->
+    <!-- Assembly & Org Information -->
     <PackageId>ADNExplodeGeometry</PackageId>
     <Title>ADN Explode Geometry Sample</Title>
     <Version>2.8.0</Version>
