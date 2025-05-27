@@ -20,14 +20,23 @@
     <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
     <OutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\ADN-ExplodeGeometry.bundle\Contents\ManagedAssemblies\2026\</OutputPath>
-    <NoWarn>$(NoWarn);CA1416</NoWarn>
+
+    <!-- Assembly & Org Information -->
+    <PackageId>ADNExplodeGeometry</PackageId>
+    <Title>ADN Explode Geometry Sample</Title>
+    <Version>2.8.0</Version>
+    <Company>Autodesk Developer Network Samples</Company>
+    <Product>ADNExplodeGeometry</Product>
+    <Copyright>Copyright © Autodesk Developer Network Samples 2025</Copyright>
+    <PackageProjectUrl>https://github.com/ADN-DevTech/3dsMax-Explode-Geometry</PackageProjectUrl>
+
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
