@@ -41,8 +41,8 @@ function menuCallback =
 (
     local menuMgr = callbacks.notificationParam()
 
-    -- Id of the "App Store" menu in the menu bar. Use this ID when need of adding new submenu items
-    -- to the "App Store" menu entry.
+    -- Check if App Store menu exists, if not create it
+	-- and return the `App Store` sub menu which we will use to add our menu items.
     local newSubMenu = getAppStoreMenuItem menuMgr
 
     local separatorId = "96FB49D4-6263-4D8E-AC95-6D304673327B"
