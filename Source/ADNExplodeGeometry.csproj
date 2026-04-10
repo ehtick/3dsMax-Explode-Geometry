@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0-windows</TargetFramework>
+    <TargetFramework>net10.0-windows</TargetFramework>
     <PlatformTarget>x64</PlatformTarget>
     <Platforms>x64</Platforms>
     <OutputType>Library</OutputType>
@@ -26,15 +26,15 @@
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
     <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
     <AppendRuntimeIdentifierToOutputPath>false</AppendRuntimeIdentifierToOutputPath>
-    <OutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\ADN-ExplodeGeometry.bundle\Contents\ManagedAssemblies\2026\</OutputPath>
+    <OutputPath>C:\ProgramData\Autodesk\ApplicationPlugins\ADN-ExplodeGeometry.bundle\Contents\ManagedAssemblies\2027\</OutputPath>
 
     <!-- Assembly & Org Information -->
     <PackageId>ADNExplodeGeometry</PackageId>
     <Title>ADN Explode Geometry Sample</Title>
-    <Version>2.8.0</Version>
+    <Version>2.9.0</Version>
     <Company>Autodesk Developer Network Samples</Company>
     <Product>ADNExplodeGeometry</Product>
-    <Copyright>Copyright © Autodesk Developer Network Samples 2025</Copyright>
+    <Copyright>Copyright © Autodesk Developer Network Samples 2027</Copyright>
     <PackageProjectUrl>https://github.com/ADN-DevTech/3dsMax-Explode-Geometry</PackageProjectUrl>
 
   </PropertyGroup>
@@ -51,27 +51,27 @@
 
   <ItemGroup>
     <Reference Include="Autodesk.Max">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\Autodesk.Max.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\Autodesk.Max.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="CSharpUtilities">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\CSharpUtilities.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\CSharpUtilities.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="ManagedServices">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\ManagedServices.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\ManagedServices.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="MaxCustomControls">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\MaxCustomControls.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\MaxCustomControls.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="UiViewModels">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\UiViewModels.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\UiViewModels.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="WPFCustomControls">
-      <HintPath>$(ADSK_3DSMAX_x64_2026)\WPFCustomControls.dll</HintPath>
+      <HintPath>$(ADSK_3DSMAX_x64_2027)\WPFCustomControls.dll</HintPath>
       <Private>False</Private>
     </Reference>
   </ItemGroup>

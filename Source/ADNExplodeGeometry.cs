@@ -32,7 +32,7 @@ using System.Diagnostics; // Useful for debugging
 
 using ManagedServices;
 // for 2012: using MaxCustomControls;
-// for 2013:
+// for 2013+:
 using UiViewModels.Actions;
 using Autodesk.Max;
 
