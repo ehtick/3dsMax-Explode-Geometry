@@ -72,5 +72,6 @@ Version
 2.5 - Update release to support 2022. No change in version Number.  
 2.6 - Update release to support 2024  
 2.7 - Support for 3ds Max 2025 and the new menu system.  
-2.8 - Support for 3ds Max 2026 and .NET Core 8.  
+2.8 - Support for 3ds Max 2026 and .NET Core 8.0  
+2.9 - Support for 3ds Max 2027 and .NET 10.0  
 
